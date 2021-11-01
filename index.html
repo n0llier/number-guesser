@@ -1,17 +1,20 @@
 <!doctype html>
 
 <html>
-  <head>
-    <title>Number Guesser</title>
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
+
+<head>
+  <title>Number Guesser</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
     <div class="game-container">
       <header>
         <h1>Number Guesser!</h1>
       </header>
-      
+
       <div class="rounds">
         <p class="round-label">Round <span id="round-number">1</span></p>
         <p class="guess-label">Target Number: <span id="target-number">?</span></p>
@@ -45,7 +48,7 @@
       </div>
 
     </div>
-    
+
     <div class="instructions">
       <div class="instruction">
         <h3>Step 1</h3>
@@ -60,8 +63,9 @@
         <p>Click "Next Round" to play again.</p>
       </div>
     </div>
+  </div>
+  <script src="./script.js"></script>
+  <script src="./game.js"></script>
+</body>
 
-    <script src="./script.js"></script>
-    <script src="./game.js"></script>
-  </body>
 </html>
